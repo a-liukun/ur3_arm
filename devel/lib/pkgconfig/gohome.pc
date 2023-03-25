@@ -1,0 +1,8 @@
+prefix=/home/lk/arm/ur3_ws/devel
+
+Name: gohome
+Description: Description of gohome
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

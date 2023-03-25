@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lk/arm/ur3_ws/src/arm/ur_control/fmauch_universal_robot/ur_kinematics/include/ur_kinematics/ikfast.h
+vector
+-
+list
+-
+stdexcept
+-
+
+/home/lk/arm/ur3_ws/src/arm/ur_control/fmauch_universal_robot/ur_kinematics/include/ur_kinematics/ur_kin.h
+
+/home/lk/arm/ur3_ws/src/arm/ur_control/fmauch_universal_robot/ur_kinematics/src/ur_kin.cpp
+ur_kinematics/ur_kin.h
+-
+math.h
+-
+stdio.h
+-
+ur_kinematics/ikfast.h
+-
+
